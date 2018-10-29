@@ -1,0 +1,50 @@
+primeiro: mágica
+n1 = x*100 + y*10 + z
+n2 = z*100 + y*10 + x
+
+(n1-n2) = 99*x-99*z = 99*(x-z)
+
+(x-z)<10
+
+
+segundo: mágica com fluxo
+número de 1 a 10
+
+O número tem a letra 'o' no nome?
+
+sim - g1 = 2, 4, 5, 8, 9
+
+não - g2 = 1, 3, 6, 7, 10
+
+O número é múltiplo de 2?
+
+g1:
+	sim - g3 = 2, 4, 8
+	não - g4 = 5, 9
+g2:
+	sim - g5 = 6, 10
+	não - g6 = 1, 3, 7
+
+O número de letras no seu número é igual a 4? 
+
+g3:
+	sim - g7 = 2, 8
+	não - g8 = 4
+g4:
+	sim - g9 = 9
+	não - g10 = 5
+g5:
+	sim - g11 = 6
+	não - g12 = 10
+g6:
+	sim - g13 = 1
+	não - g14 = 3, 7
+
+O dobro do seu número é maior do que 10?
+
+g7:
+	sim - 8
+	não - 2
+g6:
+	sim - 7
+	não - 3
